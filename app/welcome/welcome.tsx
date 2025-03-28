@@ -14,10 +14,7 @@ export function Welcome(props: WelcomeProps) {
   const {actionData} = props ;
 
   return (
-    <main className="flex flex-col items-center justify-between p-8 min-h-screen bg-[radial-gradient(circle_at_bottom, _var(--tw-gradient-stops))] from-yellow-600 to-gray-900"
-    style={{
-      background: 'radial-gradient(circle at bottom center, rgba(253, 202, 64, 0.20) 10%, rgba(0, 0, 0, 0.8) 80%)'
-    }}>
+    <main className="flex flex-col items-center justify-between p-8 min-h-screen">
       {/* header */}
       <section>
         <nav className="flex items-center justify-between">

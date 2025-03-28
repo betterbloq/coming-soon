@@ -12,4 +12,10 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+
+  main {
+    @media screen (max-width: 766px) {
+      background: 'radial-gradient(circle at bottom center, rgba(253, 202, 64, 0.20) 10%, rgba(0, 0, 0, 0.8) 80%)'
+    }
+  }
 }
