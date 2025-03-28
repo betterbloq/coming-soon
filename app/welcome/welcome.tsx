@@ -14,9 +14,8 @@ export function Welcome(props: WelcomeProps) {
   const {actionData} = props ;
 
   return (
-    <main className="flex flex-col items-center justify-between p-8 min-h-screen"
+    <main className="flex flex-col items-center justify-between p-8 min-h-screen bg-[radial-gradient(circle_at_bottom, _var(--tw-gradient-stops))] from-yellow-600 to-gray-900"
     style={{
-      background: 'radial-gradient(circle at bottom center, rgba(253, 202, 64, 0.20) 10%, rgba(0, 0, 0, 0.8) 80%)'
     }}>
       {/* header */}
       <section>
@@ -29,7 +28,7 @@ export function Welcome(props: WelcomeProps) {
       {/* core */}
       <section>
         <div className="flex flex-col items-center justify-around h-3/4 gap-8">
-          <h1 className="text-5xl md:text-8xl font-bold bg-gradient-to-r from-green-300 to-orange-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-8xl font-bold bg-gradient-to-r from-green-300 via-blue-500 to-orange-400 bg-clip-text text-transparent">
             Coming Soon
           </h1>
           <p className="text-center md:text-start">
