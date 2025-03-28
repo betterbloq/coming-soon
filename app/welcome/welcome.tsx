@@ -33,7 +33,7 @@ export function Welcome(props: WelcomeProps) {
             Coming Soon
           </h1>
           <p className="text-center md:text-start">
-            We&apos;re building tools that will shape the future of real estate development.
+            We&apos;re currently building tools that will shape the future of real estate development.
           </p>
           <Form method="post" action="/?index" className="gap-4">
             <div className="my-2">
